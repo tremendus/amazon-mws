@@ -1,0 +1,29 @@
+{
+	"name": "tremendus/amazon-mws",
+	"description": "Amazon MWS API Composer package - Orders, Inventory and Products",
+	"license": "Apache-2.0",
+	"keywords": [
+		"amazon",
+		"mws",
+		"api",
+		"products"
+	],
+	"homepage": "https://github.com/tremendus/amazon-mws",
+	"authors": [
+		{
+			"name": "tremendus",
+			"homepage": "http://www.tremendusapps.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"autoload": {
+/*
+		"classmap": [
+			"src/"
+		]
+*/
+		"psr-4": {"Amazon\\":"src/"}
+	}
+}
