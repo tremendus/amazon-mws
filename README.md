@@ -1,4 +1,4 @@
-amazon-mws-orders
+amazon-mws
 =================
 
-Amazon MWS Orders API with Composer integration
+Amazon MWS API Composer package with orders, products and inventory components
